@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{AF3B7FB4-45DB-47E3-8D45-C03FF8472D4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fsharp", "fsharp", "{256EA26C-8B46-4EE3-A8A4-A3AA35AD7F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "csharp\Runner\Runner.csproj", "{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Runner", "fsharp\Runner\Runner.fsproj", "{BF2FB30E-7BDB-44D2-89F5-C9773B856D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2FB30E-7BDB-44D2-89F5-C9773B856D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2FB30E-7BDB-44D2-89F5-C9773B856D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2FB30E-7BDB-44D2-89F5-C9773B856D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2FB30E-7BDB-44D2-89F5-C9773B856D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE61C8CF-FBE5-4A46-9761-FE25BACD05FC} = {AF3B7FB4-45DB-47E3-8D45-C03FF8472D4F}
+		{BF2FB30E-7BDB-44D2-89F5-C9773B856D10} = {256EA26C-8B46-4EE3-A8A4-A3AA35AD7F81}
+	EndGlobalSection
+EndGlobal
