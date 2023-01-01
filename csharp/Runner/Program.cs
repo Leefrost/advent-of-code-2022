@@ -4,6 +4,6 @@ using Runner.Days;
 
 var arguments = Environment.GetCommandLineArgs();
 
-Day1.Solution(arguments[1]);
+Day2.Solution(arguments[1]);
 
 Console.WriteLine();
